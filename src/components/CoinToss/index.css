@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 450px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.heading {
+  color: #a35200;
+}
+.para {
+  color: #334155;
+}
+.image {
+  height: 150px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  color: #a35200;
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+  height: 30px;
+  border-bottom: 5px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.sm-para {
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}
+.para-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
